@@ -18,19 +18,28 @@ body {
         radial-gradient(ellipse at 99% 93%, #FF0055 0%, rgba(245, 91, 117, 0.32) 58%, rgba(255, 255, 255, 0) 100%), 
         radial-gradient(ellipse at 99% 10%, #f0b241 0%, rgba(255, 255, 255, 0) 60%), 
         radial-gradient(ellipse at 0% 2%, #9577ff 0%, rgba(173, 171, 255, 0.6) 60%, rgba(255, 255, 255, 0) 74%); 
-    animation: trying 10s linear infinite;
+    animation: trying 5s linear infinite;
 }
 
 @keyframes trying {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+	from { /* radial-gradient(farthest-corner at top right, ..) */
+        background-position:left top;
+        background-size:200% 100%;
+      
+      }
+      49.9% {
+        background-position:left top;  
+      }
+      50% { /* radial-gradient(farthest-corner at top center, ..) */
+        background-size:100% 100%;
+      }
+      50.1% {
+        background-position:right top; 
+      }
+      to { /* radial-gradient(farthest-corner at top left, ..) */
+        background-position:right top;
+        background-size:200% 100%;
+      }
 }
 
 
@@ -45,7 +54,7 @@ body {
     width:100%;
     flex-direction: column;
     gap: 0.5rem;
-    color:white;
+    color:#ffffff;
 }
 
 .main .name {

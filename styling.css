@@ -8,6 +8,7 @@ body {
 .bg{
    width:100vw;
    height:100vh;
+   background-size: 400% 400%;
    position:fixed;
    top:0;
    left:0;
@@ -21,8 +22,15 @@ body {
 }
 
 @keyframes gradient {
-	from{transform:rotate(0deg)}
-	to{transform:rotate(360deg)}
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 

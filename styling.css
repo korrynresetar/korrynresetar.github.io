@@ -5,6 +5,7 @@ body {
     overflow:hidden;
     position:relative;
 }
+
 .bg{
    width:100vw;
    height:100vh;
@@ -13,8 +14,21 @@ body {
    left:0;
    z-index:0;
    background: radial-gradient(ellipse at 1% 99%, #2fbaff 0%, rgba(94, 226, 255, 0.06) 44%, rgba(255, 255, 255, 0) 100%), radial-gradient(ellipse at 99% 93%, #FF0055 0%, rgba(245, 91, 117, 0.32) 44%, rgba(255, 255, 255, 0) 100%), radial-gradient(ellipse at 99% 10%, #f0b241 0%, rgba(255, 255, 255, 0) 50%), radial-gradient(ellipse at 0% 2%, #9577ff 0%, rgba(173, 171, 255, 0.6) 34%, rgba(255, 255, 255, 0) 74%); background-blend-mode: hard-light, normal, normal, normal; 
-
+   animation: gradient 15s ease infinite;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 
 .main {

@@ -46,7 +46,7 @@ body {
 
 .main {
     z-index: 50;
-    position: static;
+    position: relative;
     display:flex;
     justify-content: center;
     align-items: center;

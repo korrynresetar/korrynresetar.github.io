@@ -7,8 +7,8 @@ body {
 }
 
 .bg{
-   width:100vw;
-   height:100vh;
+   width:200vw;
+   height:200vh;
    position:absolute;
    top:0;
    left:0;
@@ -18,7 +18,7 @@ body {
         radial-gradient(ellipse at 99% 93%, #FF0055 0%, rgba(245, 91, 117, 0.32) 58%, rgba(255, 255, 255, 0) 100%), 
         radial-gradient(ellipse at 99% 10%, #f0b241 0%, rgba(255, 255, 255, 0) 60%), 
         radial-gradient(ellipse at 0% 2%, #9577ff 0%, rgba(173, 171, 255, 0.6) 60%, rgba(255, 255, 255, 0) 74%); 
-    animation: gradient 10s ease infinite;
+    animation: gradient 10s linear infinite;
 }
 
 @keyframes gradient {

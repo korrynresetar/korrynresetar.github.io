@@ -98,7 +98,14 @@ body {
  align-self: flex-start;
  padding:2rem;
  width:100%;
- background-color:rgba(255, 255, 255, 0.25);
+ background-color:rgba(255, 255, 255, 0.15);
+ opacity:.75;
+ transition: all .2s linear;
+}
+
+.bottom:hover {
+  opacity:1;
+  transition: all .2s linear;
 }
 
 .desc, .contact {
@@ -111,20 +118,16 @@ body {
 
   @keyframes wave {
     0% {
-        transform: translateY(0px);
+        transform: translateY(5px);
     }
 
-    25% {
+    20% {
         transform: translateY(-5px);
     }
 
-    50%,
+    40%,
     100% {
-        transform: translateY(0px);
-    }
-
-    75% {
-      transform: translateY(5px);
+        transform: translateY(5px);
     }
 }
 

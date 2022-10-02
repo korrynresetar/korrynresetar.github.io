@@ -78,8 +78,9 @@ body {
   gap: 1rem;
 }
 
-.letter {
-  animation: wave 2s linear infinite;
+.main .wip .word .letter {
+  display:inline-block;
+  animation: wave 2s linear alternate infinite;
 }
 
 .bottom {

@@ -79,6 +79,7 @@ body {
 }
 
 .main .wip .word .letter {
+  position:relative;
   display:inline-block;
   animation: wave 2s linear alternate infinite;
 }
@@ -117,4 +118,9 @@ body {
     75% {
       transform: translateY(10px);
     }
+}
+
+.k {
+  height:20px;
+  width:auto;
 }

@@ -84,8 +84,8 @@ body {
 }
 
 .name:hover > .k  {
-      transition: 1s linear;
-      transform: rotate(0.125turn) translateY(-0.0625rem) translateX(-0.125rem);
+      transition: .25s linear;
+      transform: rotate(-0.05turn) translateY(-0.0625rem) translateX(-0.125rem);
     
   }
 

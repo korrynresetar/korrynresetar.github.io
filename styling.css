@@ -98,13 +98,14 @@ body {
  align-self: flex-start;
  padding:2rem;
  width:100%;
- background-color:rgba(255, 255, 255, 0.2);
- opacity:.5;
+ background-color:rgba(255, 255, 255, 0.1);
+ opacity:.7;
  transition: all .2s linear;
 }
 
 .bottom:hover {
   opacity:1;
+  background-color:rgba(255, 255, 255, 0.2);
   transition: all .2s linear;
 }
 
@@ -121,11 +122,10 @@ body {
         transform: translateY(0px);
     }
 
-    20% {
+    50% {
         transform: translateY(-5px);
     }
 
-    40%,
     100% {
         transform: translateY(0px);
     }

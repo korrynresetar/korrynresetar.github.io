@@ -81,8 +81,14 @@ body {
 .main .wip .word .letter {
   position:relative;
   display:inline-block;
-  animation: wave 2s ease-in-out alternate infinite;
+  animation: wave 2s ease-in-out infinite;
   animation-delay: calc(0.1s * var(--i));
+}
+
+.word {
+  display:flex;
+  flex-direction:row;
+  gap:.025rem;
 }
 
 .bottom {
@@ -90,11 +96,9 @@ body {
  flex-direction: column;
  gap: .25rem;
  align-self: flex-start;
- padding:.5rem;
+ padding:2rem;
  width:100%;
- background-color:rgba(255, 255, 255, 0.5);
-
-
+ background-color:rgba(255, 255, 255, 0.25);
 }
 
 .desc, .contact {
@@ -111,7 +115,7 @@ body {
     }
 
     25% {
-        transform: translateY(-10px);
+        transform: translateY(-5px);
     }
 
     50%,
@@ -120,11 +124,11 @@ body {
     }
 
     75% {
-      transform: translateY(10px);
+      transform: translateY(5px);
     }
 }
 
 .k {
-  height:20px;
+  height:50px;
   width:auto;
 }

@@ -81,10 +81,16 @@ body {
 .main .txt {
   display: flex;
   font-size: 1.5rem;
-}
 
+ 
+}
+.name > .k {
+  transform: rotate(0.05turn) translateY(0.0625rem) translateX(0.125rem);
+  transition: all .1s linear;
+
+}
 .name:hover > .k  {
-      transition: .25s linear;
+      transition: all .1s linear;
       transform: rotate(-0.05turn) translateY(-0.0625rem) translateX(-0.125rem);
     
   }

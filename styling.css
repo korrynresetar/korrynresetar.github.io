@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+display&display=swap');
 body {
   margin: 0;
   width: 100vw;
@@ -83,19 +85,21 @@ body {
   display:inline-block;
   animation: wave 2s ease-in-out infinite;
   animation-delay: calc(0.1s * var(--i));
+  
 }
 
 .word {
   display:flex;
   flex-direction:row;
   gap:.025rem;
+  font-family: 'DM Serif Display';
 }
 
 .bottom {
  display:flex;
- flex-direction: column;
+ flex-direction: row;
  gap: .25rem;
- align-self: flex-start;
+ justify-content: space-between;
  padding:2rem;
  width:100%;
  background-color:rgba(255, 255, 255, 0.1);
@@ -115,6 +119,8 @@ body {
   gap: .75rem;
   font-size: 1rem;
   color: white;
+  font-family: 'Work Sans';
+  font-weight:300;
 }
 
   @keyframes wave {
@@ -132,6 +138,13 @@ body {
 }
 
 .k {
-  height:50px;
+  height:75px;
   width:auto;
+}
+
+.info {
+  display:flex;
+  flex-direction:column;
+  gap:.25rem;
+  justify-self: flex-end;
 }

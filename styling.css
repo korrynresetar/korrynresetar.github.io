@@ -99,9 +99,9 @@ body {
 
 .bottom {
  display:flex;
- flex-direction: row;
- justify-content: space-between;
- padding:2rem;
+ flex-direction: column;
+ justify-content: center;
+ gap:1rem;
  width:100%;
  background-color:rgba(255, 255, 255, 0.065);
  transition: all .2s linear;
@@ -111,19 +111,15 @@ body {
   opacity:.5;
   transition: all .2s linear;
 }
-.bottom > .info .desc {
+.bottom > ..desc {
   opacity:.65;
   transition: all .2s linear;
 }
 
-.bottom > .info .name {
-  opacity:.7;
-  transition: all .2s linear;
-}
+
 
 .bottom:hover > .logo, 
-.bottom:hover > .info .desc,
-.bottom:hover > .info .name {
+.bottom:hover > .desc {
   opacity:1;
   transition: all .2s linear;
 }
@@ -158,7 +154,7 @@ body {
   width:auto;
   position:absolute;
   top:0%;
-  left:2rem;
+  left:0;
   
 }
 
@@ -167,7 +163,7 @@ body {
   width:auto;
   position:absolute;
   top:12%;
-  left:3.1rem;
+  left:1.1rem;
 }
 
 .o-accent {
@@ -175,61 +171,50 @@ body {
   width:auto;
   position:absolute;
   top:30%;
-  left:3.5rem;
+  left:1.5rem;
 }
 
 .r {
-  height:17px;
+  height:22px;
   width:auto;
   position:absolute;
-  top:12%;
-  left:3.75rem;
+  top:-8%;
+  left:2.35rem;
 }
 
 .ry {
-  height:17px;
+  height:24px;
   width:auto;
   position:absolute;
-  top:12%;
-  left:4rem;
+  top:20%;
+  left:3.05rem;
 }
 
 
 .n {
-  height:17px;
+  height:22px;
   width:auto;
   position:absolute;
-  top:12%;
-  left:4.25rem;
+  top:20%;
+  left:5rem;
 }
 
 
 
-.info {
-  display:flex;
-  flex-direction:column;
-  gap:.25rem;
-  justify-self: flex-end;
-  justify-content: space-around;
-  text-align: right;
+
+.desc {
+  display: flex;
+  flex-direction:row;
+  gap:.375rem;
+  font-style:italic;
   font-size: .625rem;
   color: white;
   font-family: 'Work Sans';
   font-weight:400;
   padding-right:2rem;
+  justify-content:center;
 }
 
-.info .name {
-  font-size:.75rem;
-}
-
-.info .desc {
-  display: flex;
-  flex-direction:row;
-  gap:.375rem;
-  font-style:italic;
-}
-
-.info .desc .email {
+.desc .email {
   text-decoration: underline;
 }

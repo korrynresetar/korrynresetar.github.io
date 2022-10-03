@@ -268,3 +268,17 @@ body {
   }
 
 }
+
+@media screen and 
+(min-width: 769px) and
+(max-width: 1024) {
+
+  .wip {
+    font-size:1.25rem;
+  }
+
+  .bottom .logo {
+    transform: translateX(-2.3rem) scale(.9);
+  }
+
+}

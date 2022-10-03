@@ -166,17 +166,44 @@ body {
   height:17px;
   width:auto;
   position:absolute;
-  top:7%;
-  left:3.125rem;
+  top:12%;
+  left:3.1rem;
 }
 
 .o-accent {
-  height:4px;
+  height:5px;
   width:auto;
   position:absolute;
-  top:14%;
-  left:3.45rem;
+  top:30%;
+  left:3.5rem;
 }
+
+.r {
+  height:17px;
+  width:auto;
+  position:absolute;
+  top:12%;
+  left:3.75rem;
+}
+
+.ry {
+  height:17px;
+  width:auto;
+  position:absolute;
+  top:12%;
+  left:4rem;
+}
+
+
+.n {
+  height:17px;
+  width:auto;
+  position:absolute;
+  top:12%;
+  left:4.25rem;
+}
+
+
 
 .info {
   display:flex;

@@ -76,7 +76,7 @@ body {
 .wip {
   display: flex;
   flex-direction: row;
-  font-size: 2rem;
+  font-size: 1.725rem;
   gap: 1rem;
 }
 
@@ -85,15 +85,16 @@ body {
   display:inline-block;
   animation: wave 2s ease-in-out infinite;
   animation-delay: calc(0.1s * var(--i));
+  opacity:.45;
   
 }
 
 .word {
   display:flex;
   flex-direction:row;
-  gap:.125rem;
+  gap:.1rem;
   font-family: 'Work Sans';
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .bottom {
@@ -130,13 +131,14 @@ body {
         opacity:.45;
     }
 }
-.logo {
+.bottom .logo {
   padding-left: 2rem;
   align-content:center;
+  align-items:center;
 }
 
 .k {
-  height:50px;
+  height:40px;
   width:auto;
   
 }
@@ -148,7 +150,7 @@ body {
   justify-self: flex-end;
   justify-content: space-around;
   text-align: right;
-  font-size: .75rem;
+  font-size: .625rem;
   color: white;
   font-family: 'Work Sans';
   font-weight:300;
@@ -157,5 +159,5 @@ body {
 
 .info .name {
   font-weight:700;
-  font-size:1rem;
+  font-size:.875rem;
 }

@@ -244,7 +244,7 @@ body {
   }
 
   .bottom .desc {
-    font-size: .75rem;
+    font-size: .65rem;
     flex-direction:column;
     gap:.375rem;
   }
@@ -252,4 +252,19 @@ body {
   .bottom .bullet {
     display: none;
   }
+}
+
+
+@media screen and 
+(min-width: 481px) and
+(max-width: 768px) {
+
+  .wip {
+    font-size:1.25rem;
+  }
+
+  .bottom .logo {
+    transform: translateX(-2.3rem) scale(.9);
+  }
+
 }

@@ -3,7 +3,7 @@
 body {
   margin: 0;
   width: 100vw;
-  height: 100vh;
+  height: 95vh;
   overflow: hidden;
 }
 
@@ -580,8 +580,8 @@ body {
     font-size:1.25rem;
   }
 
-  body, .main {
-    height:85%;
+  body {
+    height:85vh;
   }
 
 }

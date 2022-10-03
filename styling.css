@@ -150,7 +150,7 @@ body {
   height: 30px;
   width: 30px;
   position:relative;
-  transform:translateX(-2.75rem) scale(.80);
+  transform:translateX(-2rem) scale(.80);
 }
 
 .k {
@@ -215,7 +215,6 @@ body {
   color: white;
   font-family: 'Work Sans';
   font-weight:400;
-  padding-right:2rem;
   justify-content:center;
   margin: 0rem 2rem;
 }
@@ -225,14 +224,18 @@ body {
   color: white;
 }
 
+.main .bottom .desc .title {
+  text-align: right;
+}
+
 @media screen and (max-width: 600px) {
 
   .wip {
-    font-size:3rem;
+    font-size:1.75rem;
   }
 
   .bottom .logo {
-    transform: translateX(-1rem) scale(.9);
+    transform: translateX(-2.3rem) scale(.9);
   }
 
   .bottom .desc {

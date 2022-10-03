@@ -127,7 +127,14 @@ body {
   transition: all .2s linear;
 }
 
+.bottom > .logo > .o-accent {
+  transition: all .25s linear;
+}
 
+.bottom:hover > .logo > .o-accent {
+  transition: all .25s linear;
+  transform:rotate(90deg);
+}
   @keyframes wave {
     0% {
         transform: translateY(0px);
@@ -219,15 +226,19 @@ body {
 
 .main .bottom .desc .email {
   text-decoration: underline;
+  text-underline-offset: .125rem;
   color: white;
   transition: all .25s linear;
+  letter-spacing: auto;
 }
 
 .main .bottom .desc .email:hover {
   transition: all .25s linear;
   text-shadow: 2px 1px 2px rgba(0,0,0,.25);
-  font-style:normal;
+  text-underline-offset: .15rem;
+  letter-spacing:.125rem;
 }
+
 .main .bottom .desc .title {
   text-align: right;
 }
@@ -242,8 +253,6 @@ body {
   .wip {
     font-size:1.25rem;
   }
-
-
 
   .bottom .desc {
     font-size: .65rem;

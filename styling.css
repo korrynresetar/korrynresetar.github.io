@@ -191,6 +191,14 @@ body {
   -ms-animation-delay: calc(0.1s * var(--i));
   animation-delay: calc(0.1s * var(--i));
 
+  transition: all .05s linear;
+  -moz-transition: all .05s linear;
+  -webkit-transition: all .05s linear;
+  -o-transition: all .05s linear;
+  -ms-transition: opacity, filter .05s linear;
+
+  
+
   opacity:.45;
 }
 
@@ -401,7 +409,7 @@ body {
   -moz-transition: all .25s linear;
   -webkit-transition: all .25s linear;
   -o-transition: all .25s linear;
-  -ms-transition: all .25s linear;
+  -ms-transition: opacity, filter .25s linear;
 
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0));
 }
@@ -416,7 +424,7 @@ body {
   -moz-transition: all .25s linear;
   -webkit-transition: all .25s linear;
   -o-transition: all .25s linear;
-  -ms-transition: all .25s linear;
+  -ms-transition: opacity, filter .25s linear;
 
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.0));
 }
@@ -431,7 +439,7 @@ body {
   -moz-transition: all .25s linear;
   -webkit-transition: all .25s linear;
   -o-transition: all .25s linear;
-  -ms-transition: all .25s linear;
+  -ms-transition: opacity, filter .25s linear;
 
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.0));
 }
@@ -446,7 +454,7 @@ body {
   -moz-transition: all .25s linear;
   -webkit-transition: all .25s linear;
   -o-transition: all .25s linear;
-  -ms-transition: all .25s linear;
+  -ms-transition: opacity, filter .25s linear;
 
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.0));
 }
@@ -461,7 +469,7 @@ body {
   -moz-transition: all .25s linear;
   -webkit-transition: all .25s linear;
   -o-transition: all .25s linear;
-  -ms-transition: all .25s linear;
+  -ms-transition: opacity, filter .25s linear;
 
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.0));
 }
@@ -477,7 +485,7 @@ body {
   -moz-transition: all .25s linear;
   -webkit-transition: all .25s linear;
   -o-transition: all .25s linear;
-  -ms-transition: all .25s linear;
+  -ms-transition: opacity, filter .25s linear;
 
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.0));
 }

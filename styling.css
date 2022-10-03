@@ -142,10 +142,10 @@ body {
     }
 }
 .bottom .logo {
-  padding-left: 2rem;
   align-content:center;
   align-items:center;
   height: 30px;
+  width: 30px;
   position:relative;
 }
 

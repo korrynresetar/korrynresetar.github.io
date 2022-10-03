@@ -134,7 +134,7 @@ body {
 .bottom:hover > .logo > .ry,
 .bottom:hover > .logo > .n {
   transition: all .25s linear;
-  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.15));
+  filter: drop-shadow(2px 4px 2px rgb(0 0 0 / 0.1));
 }
 
 @keyframes wave {

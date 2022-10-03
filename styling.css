@@ -99,6 +99,8 @@ body {
 
 .bottom {
  display:flex;
+ position:absolute;
+ bottom:0;
  flex-direction: column;
  justify-content: center;
  align-items:center;
@@ -219,4 +221,21 @@ body {
 
 .desc .email {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .wip {
+    font-size:3rem;
+  }
+
+  .bottom .logo {
+    transform: scale(1);
+  }
+
+  .bottom .desc {
+    font-size: 1rem;
+  }
+
+
 }

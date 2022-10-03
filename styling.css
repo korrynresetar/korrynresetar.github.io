@@ -117,7 +117,7 @@ body {
 }
 
 .bottom > .info .name {
-  opacity:.85;
+  opacity:.7;
   transition: all .2s linear;
 }
 
@@ -163,11 +163,11 @@ body {
 }
 
 .o {
-  height:25px;
+  height:15px;
   width:auto;
   position:absolute;
-  top:17.5%;
-  left:2.1rem;
+  top:50%;
+  left:2.575rem;
 }
 
 .info {
@@ -185,8 +185,7 @@ body {
 }
 
 .info .name {
-  font-weight:500;
-  font-size:.875rem;
+  font-size:.75rem;
 }
 
 .info .desc {

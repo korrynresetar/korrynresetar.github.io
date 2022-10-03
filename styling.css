@@ -180,7 +180,7 @@ body {
   top:12%;
   left:1.1rem;
   transition: all .25s linear;
-  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.15));
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.0));
 }
 
 .o-accent {
@@ -190,7 +190,7 @@ body {
   top:30%;
   left:1.5rem;
   transition: all .25s linear;
-  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.15));
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.0));
 }
 
 .r {
@@ -200,7 +200,7 @@ body {
   top:-8%;
   left:2.35rem;
   transition: all .25s linear;
-  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.15));
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.0));
 }
 
 .ry {
@@ -210,7 +210,7 @@ body {
   top:20%;
   left:3.05rem;
   transition: all .25s linear;
-  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.15));
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.0));
 }
 
 
@@ -221,7 +221,7 @@ body {
   top:20%;
   left:5rem;
   transition: all .25s linear;
-  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.15));
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.0));
 }
 
 
@@ -294,13 +294,7 @@ body {
     font-size:1.25rem;
   }
 
-  .bottom > .logo {
-    opacity:.9;
-  }
 
-  .bottom > .desc {
-    opacity:.75;
-  }
 }
 
 @media screen and 
@@ -311,12 +305,6 @@ body {
     font-size:1.25rem;
   }
 
-  .bottom > .logo {
-    opacity:.9;
-  }
-
-  .bottom > .desc {
-    opacity:.75;
-  }
+ 
 
 }

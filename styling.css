@@ -91,8 +91,9 @@ body {
 .word {
   display:flex;
   flex-direction:row;
-  gap:.0635rem;
-  font-family: 'DM Serif Display';
+  gap:.125rem;
+  font-family: 'Work Sans';
+  font-weight: 700;
 }
 
 .bottom {
@@ -116,7 +117,7 @@ body {
   @keyframes wave {
     0% {
         transform: translateY(0px);
-        opacity:.6;
+        opacity:.45;
     }
 
     50% {
@@ -126,16 +127,18 @@ body {
 
     100% {
         transform: translateY(0px);
-        opacity:.6;
+        opacity:.45;
     }
 }
 .logo {
   padding-left: 2rem;
+  align-content:center;
 }
 
 .k {
-  height:30px;
+  height:50px;
   width:auto;
+  
 }
 
 .info {
@@ -145,7 +148,7 @@ body {
   justify-self: flex-end;
   justify-content: space-around;
   text-align: right;
-  font-size: .5rem;
+  font-size: .75rem;
   color: white;
   font-family: 'Work Sans';
   font-weight:300;
@@ -153,6 +156,6 @@ body {
 }
 
 .info .name {
-  font-weight:500;
-  font-size:.75rem;
+  font-weight:700;
+  font-size:1rem;
 }

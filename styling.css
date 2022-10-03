@@ -127,14 +127,6 @@ body {
   transition: all .2s linear;
 }
 
-.bottom > .logo > .o-accent {
-  transition: all .25s linear;
-}
-
-.bottom:hover > .logo > .o-accent {
-  transition: all .25s linear;
-  transform:rotate(90deg);
-}
   @keyframes wave {
     0% {
         transform: translateY(0px);

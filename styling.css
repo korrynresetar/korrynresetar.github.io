@@ -580,6 +580,10 @@ body {
     font-size:1.25rem;
   }
 
+  .main {
+    height:90%;
+  }
+
 }
 
 @media screen and 

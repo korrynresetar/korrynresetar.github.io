@@ -204,8 +204,6 @@ body {
 }
 
 
-
-
 .desc {
   display: flex;
   flex-direction:row;
@@ -222,8 +220,14 @@ body {
 .main .bottom .desc .email {
   text-decoration: underline;
   color: white;
+  transition: all .25s linear;
 }
 
+.main .bottom .desc .email:hover {
+  transition: all .25s linear;
+  text-shadow: 2px 1px 2px rgba(0,0,0,.25);
+  font-style:normal;
+}
 .main .bottom .desc .title {
   text-align: right;
 }
@@ -251,7 +255,6 @@ body {
     display: none;
   }
 }
-
 
 @media screen and 
 (min-width: 481px) and

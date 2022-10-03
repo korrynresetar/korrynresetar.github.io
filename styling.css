@@ -103,7 +103,7 @@ body {
  justify-content: space-between;
  padding:2rem;
  width:100%;
- background-color:rgba(255, 255, 255, 0.65);
+ background-color:rgba(255, 255, 255, 0.065);
  transition: all .2s linear;
 }
 
@@ -158,7 +158,7 @@ body {
   width:auto;
   position:absolute;
   top:50%;
-  left:0;
+  left:2rem;
   
 }
 

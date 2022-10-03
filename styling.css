@@ -78,7 +78,7 @@ body {
   flex-direction: row;
   font-size: 1.5rem;
   gap: 1rem;
-  filter: drop-shadow(2px 4px 2px rgb(0 0 0 / 0))
+  filter: drop-shadow(2px 2px 0px rgb(0 0 0 / 0))
 }
 
 .main .wip .word .letter {
@@ -135,26 +135,26 @@ body {
 .bottom:hover > .logo > .ry,
 .bottom:hover > .logo > .n {
   transition: all .25s linear;
-  filter: drop-shadow(1px 2px 0px rgb(0 0 0 / 0.125));
+  filter: drop-shadow(3px 3px 0px rgb(0 0 0 / 0.125));
 }
 
 @keyframes wave {
   0% {
     transform: translateY(0px);
     opacity:.45;
-    filter: drop-shadow(1px 3px 0px rgb(0 0 0 / 0))
+    filter: drop-shadow(2px 2px 0px rgb(0 0 0 / 0))
   }
 
   50% {
     transform: translateY(5px);
     opacity:1;
-    filter: drop-shadow(1px 3px 0px rgb(0 0 0 / 0.125))
+    filter: drop-shadow(2px 2px 0px rgb(0 0 0 / 0.125))
   }
 
   100% {
     transform: translateY(0px);
     opacity:.45;
-    filter: drop-shadow(1px 3px 0px rgb(0 0 0 / 0))
+    filter: drop-shadow(2px 2px 0px rgb(0 0 0 / 0))
   }
 }
 

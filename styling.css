@@ -239,9 +239,7 @@ body {
     font-size:1.25rem;
   }
 
-  .bottom .logo {
-    transform: translateX(-2.3rem) scale(.9);
-  }
+
 
   .bottom .desc {
     font-size: .65rem;
@@ -263,10 +261,6 @@ body {
     font-size:1.25rem;
   }
 
-  .bottom .logo {
-    transform: translateX(-2.3rem) scale(.9);
-  }
-
 }
 
 @media screen and 
@@ -277,8 +271,6 @@ body {
     font-size:1.25rem;
   }
 
-  .bottom .logo {
-    transform: translateX(-2.3rem) scale(.9);
-  }
+  
 
 }

@@ -166,8 +166,16 @@ body {
   height:17px;
   width:auto;
   position:absolute;
-  top:6%;
-  left:3.1rem;
+  top:7%;
+  left:3.125rem;
+}
+
+.o-accent {
+  height:4px;
+  width:auto;
+  position:absolute;
+  top:14%;
+  left:3.45rem;
 }
 
 .info {

@@ -580,7 +580,7 @@ body {
     font-size:1.25rem;
   }
 
-  .main {
+  body, .main {
     height:80%;
   }
 

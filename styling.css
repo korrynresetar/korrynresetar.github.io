@@ -162,6 +162,14 @@ body {
   
 }
 
+.o {
+  height:25px;
+  width:auto;
+  position:absolute;
+  top:17.5%;
+  left:2.1rem;
+}
+
 .info {
   display:flex;
   flex-direction:column;

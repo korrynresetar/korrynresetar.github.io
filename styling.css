@@ -103,14 +103,16 @@ body {
  justify-content: space-between;
  padding:2rem;
  width:100%;
- background-color:rgba(255, 255, 255, 0.1);
- opacity:.7;
+ background-color:rgba(255, 255, 255, 0.175);
  transition: all .2s linear;
 }
 
-.bottom:hover {
+.bottom > .logo, .info .desc {
+  opacity:.5;
+}
+
+.bottom:hover > .logo, .info .desc {
   opacity:1;
-  background-color:rgba(255, 255, 255, 0.2);
   transition: all .2s linear;
 }
 

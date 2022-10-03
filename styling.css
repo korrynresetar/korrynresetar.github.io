@@ -249,10 +249,10 @@ body {
   transition: all .25s linear;
   letter-spacing: auto;
   font-style:normal;
-  -webkit-transform: skewX(-20deg);
-  -moz-transform: skewX(-20deg);
-  -o-transform: skewX(-20deg);
-  transform: skewX(-20deg);
+  -webkit-transform: skewX(-13deg);
+  -moz-transform: skewX(-13deg);
+  -o-transform: skewX(-13deg);
+  transform: skewX(-13deg);
 }
 
 .main .bottom .desc .email:hover {

@@ -103,7 +103,7 @@ body {
  justify-content: space-between;
  padding:2rem;
  width:100%;
- background-color:rgba(255, 255, 255, 0.1);
+ background-color:rgba(255, 255, 255, 0.65);
  transition: all .2s linear;
 }
 
@@ -149,13 +149,16 @@ body {
   padding-left: 2rem;
   align-content:center;
   align-items:center;
-  height: 50px;
+  height: 30px;
   position:relative;
 }
 
 .k {
-  height:30px;
+  height:25px;
   width:auto;
+  position:absolute;
+  top:50%;
+  left:0;
   
 }
 
@@ -174,7 +177,7 @@ body {
 }
 
 .info .name {
-  font-weight:700;
+  font-weight:500;
   font-size:.875rem;
 }
 

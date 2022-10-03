@@ -76,7 +76,7 @@ body {
 .wip {
   display: flex;
   flex-direction: row;
-  font-size: 1.725rem;
+  font-size: 1.5rem;
   gap: 1rem;
 }
 
@@ -92,9 +92,9 @@ body {
 .word {
   display:flex;
   flex-direction:row;
-  gap:.1rem;
+  gap:.0625rem;
   font-family: 'Work Sans';
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .bottom {
@@ -160,4 +160,10 @@ body {
 .info .name {
   font-weight:700;
   font-size:.875rem;
+}
+
+.info .desc {
+  display: flex;
+  flex-direction:row;
+  gap:.125rem;
 }

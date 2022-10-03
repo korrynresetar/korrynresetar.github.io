@@ -228,11 +228,15 @@ body {
   text-align: right;
 }
 
+.desc .bullet {
+  display: flex;
+}
+
 @media screen and 
 (max-width: 480px) {
 
   .wip {
-    font-size:1.75rem;
+    font-size:1.25rem;
   }
 
   .bottom .logo {
@@ -241,7 +245,11 @@ body {
 
   .bottom .desc {
     font-size: .75rem;
+    flex-direction:column;
+    gap:.375rem;
   }
 
-
+  .bottom .bullet {
+    display: none;
+  }
 }

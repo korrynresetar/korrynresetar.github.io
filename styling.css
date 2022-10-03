@@ -567,10 +567,6 @@ body {
     gap:.375rem;
   }
 
-  body {
-    height:90vh;
-  }
-
   .bottom .bullet {
     display: none;
   }

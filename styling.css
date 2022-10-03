@@ -154,10 +154,10 @@ body {
 }
 
 .k {
-  height:25px;
+  height:30px;
   width:auto;
   position:absolute;
-  top:50%;
+  top:35%;
   left:2rem;
   
 }
@@ -166,8 +166,8 @@ body {
   height:15px;
   width:auto;
   position:absolute;
-  top:50%;
-  left:2.575rem;
+  top:35%;
+  left:2.7rem;
 }
 
 .info {
@@ -192,6 +192,7 @@ body {
   display: flex;
   flex-direction:row;
   gap:.375rem;
+  font-style:italic;
 }
 
 .info .desc .email {

@@ -219,8 +219,9 @@ body {
   justify-content:center;
 }
 
-.desc .email {
+.main .bottom .desc .email {
   text-decoration: underline;
+  color: white;
 }
 
 @media only screen and (max-width: 600px) {

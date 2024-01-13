@@ -1118,3 +1118,12 @@ height:100%;
 
 }
 
+@media screen and 
+(max-width: 390px) {
+  .page-placeholder {
+    height:90vh;
+  }
+
+}
+
+

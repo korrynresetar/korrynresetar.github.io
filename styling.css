@@ -1134,7 +1134,9 @@ height:100%;
 (max-width: 450px) {
   .page-placeholder {
     padding: 5% 20px 20% 20px;
+    height:90vh;
   }
+ 
 
 }
 

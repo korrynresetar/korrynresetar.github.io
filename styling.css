@@ -11,6 +11,13 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+}
+
+html {
+  height: -webkit-fill-available;
 }
 
 nav {
@@ -686,6 +693,9 @@ ABOUT PAGE
   max-width: 100vw;
   align-items: center;
   height: 100vh;
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
 }
 
 .about-section {
@@ -1118,12 +1128,6 @@ height:100%;
 
 }
 
-@media screen and 
-(max-width: 390px) {
-  .page-placeholder {
-    height:90vh;
-  }
 
-}
 
 

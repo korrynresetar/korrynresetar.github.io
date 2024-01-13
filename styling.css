@@ -1133,7 +1133,7 @@ height:100%;
 @media screen and 
 (max-width: 450px) {
   .page-placeholder {
-    padding: 20% 20px;
+    padding: 5% 20px 20% 20px;
   }
 
 }

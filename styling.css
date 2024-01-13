@@ -294,9 +294,10 @@ nav {
 
 .wip-footer {
  display:flex;
- padding-top:30px;
+ padding:10px 0px 30px 0px;
  justify-self: end;
  position: relative;
+ box-sizing:border-box;
  z-index: 100;
 height:fit-content;
  bottom:0;

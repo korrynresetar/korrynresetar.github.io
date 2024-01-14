@@ -1365,6 +1365,7 @@ z-index:50;
 .tab {
   background:rgba(150,99, 234,0);
   padding:10px 8px;
+  color:rgba(0,0,0.8);
   font-family:'Fraunces';
   font-size:15px;
   font-weight:400;
@@ -1720,6 +1721,10 @@ max-width:800px;
     height:95vh;
   }
  
+  .page-placeholder.drilldown {
+    padding: 5% 20px 20% 20px;
+    height:92vh;
+  }
 
 }
 

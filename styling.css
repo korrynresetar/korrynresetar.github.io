@@ -695,7 +695,7 @@ ABOUT PAGE
   box-sizing: border-box;
   justify-content: center;
   flex: 1 1 0%;
-  padding: 3vh 3vw;
+  padding: 20px 3vw;
   max-height: 100vh;
   max-width: 100vw;
   align-items: center;
@@ -1615,7 +1615,7 @@ max-width:800px;
     font-size:28px;
   }
   .page-placeholder {
-    padding: 30px 30px;
+    padding: 20px 30px;
   }
 
   .paragraph-text {
